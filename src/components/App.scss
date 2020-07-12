@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/bootstrap";
+$darkBlue: #435b7a;
+html {
+  font-size: 1.5rem;
+}
+.container-fluid {
+
+height: 100vh;
+
+width: 100%;
+}
+
+
+.App {
+ background-color: lightseagreen;
+
+ box-shadow: -10px 10px 5px 0px lightcoral;
+ opacity: 0.70;
+}
+
+.display {
+  background-color: lightcoral;
+  text-align: center;
+  color: #fff;
+}
+.drum-pad{
+  background-color: lightsalmon;
+  border-color: peachpuff;
+}
+.drum-pad.active {
+  opacity: 0.8;
+
+  transform: scale(0.97);
+}
+
+.btn-info:hover{
+  background-color: lightcoral;
+}
+
